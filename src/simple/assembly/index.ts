@@ -16,9 +16,11 @@ export function helloWorld(names: Array<string>): string {
 }
 */
 
-// return the string 'hello world'
+
+//Task 4
 export function helloWorld(): string {
-  return 'hello world'
+  const predecessor = Context.predecessor
+  return 'hello ' + predecessor
 }
 
 // read the given key from account (contract) storage
