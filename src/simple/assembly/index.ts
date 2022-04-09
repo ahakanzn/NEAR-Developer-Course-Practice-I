@@ -1,5 +1,21 @@
 import { storage, Context } from "near-sdk-as"
 
+/* Change 1
+export function helloWorld(): string {
+  return 'hello ahakanzn'
+}
+
+Change 2
+export function helloWorld(name: string): string {
+  return 'hello ' + name
+}
+
+//Change 3
+export function helloWorld(names: Array<string>): string {
+  return names.map<string>(name => 'hello ' + name).join(' ')
+}
+*/
+
 // return the string 'hello world'
 export function helloWorld(): string {
   return 'hello world'
